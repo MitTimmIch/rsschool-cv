@@ -1,6 +1,6 @@
-###rsschool-cv
+### rsschool-cv
 
-#Timur Umarov
+# Timur Umarov
 
 ![MyFoto](./timFoto.jpg)
 ## Contact
