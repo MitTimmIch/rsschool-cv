@@ -1,6 +1,7 @@
 ###rsschool-cv
 
 #Timur Umarov
+
 ![MyFoto](./timFoto.jpg)
 ## Contact
 **Location:** Russia, Rostov-on-Don
