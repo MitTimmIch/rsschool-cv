@@ -1,2 +1,4 @@
-![foto Tim](rsschool-cv\img\main-foto.jpg)
-#Timur Umarov
+![](/rsschool-cv/img/main-foto.jpg)
+# Timur Umarov
+
+ 
