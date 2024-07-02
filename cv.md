@@ -1,4 +1,4 @@
-![Tim](https://myoctocat.com/assets/images/base-octocat.svg)
+![Tim](rsschool-cv/img/main-foto.png)
 # Timur Umarov
 
  
