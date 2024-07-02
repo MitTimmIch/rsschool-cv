@@ -1,4 +1,4 @@
-![Tim foto!](/rsschool-cv/img/main-foto.jpg)
+![Tim](/rsschool-cv/img/main-foto.png)
 # Timur Umarov
 
  
