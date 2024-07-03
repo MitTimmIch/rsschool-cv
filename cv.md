@@ -1,18 +1,18 @@
 ![Tim](/rsschool-cv/avatar.png)
 # Timur Umarov
 
- ## Contacts 
+## Contacts 
  * *Email:* umaroffteymur@yandex.ru
  * *Telegtam:* https://t.me/Tim_mit_mit
  * *Discord:* timur_umar
 
- ## Language
+## Language
  * English - A2(B1)
 
- ## Education 
+## Education 
  Rostov State Conservatory named after S.V. Rachmaninov 2018-2023
 
- ## Code example 
+## Code example 
  ```javascript
  "use strict"
 
