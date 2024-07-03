@@ -30,4 +30,4 @@ function removeVowelLetters() {
 }
 ``` 
 ## About me 
-I'm just learning how to design. Interested in web, because it is fashionable stylish youthful. I aim to become a junior developer in a year.
+I'm just learning development. I'm interested in web because it's trendy, stylish and youthful. I aim to become a junior developer in a year.
