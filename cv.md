@@ -2,8 +2,8 @@
 # Timur Umarov
 
 ## Contacts 
- * *Email:* umaroffteymur@yandex.ru
- * *Telegram:* https://t.me/Tim_mit_mit
+ * *Email:* <umaroffteymur@yandex.ru>
+ * *Telegram:* <https://t.me/Tim_mit_mit>
  * *Discord:* timur_umar
 
 ## About me 
@@ -12,7 +12,7 @@ I'm just learning development. I'm interested in web because it's trendy, stylis
 I aim to become a junior developer in a year.
 
 ## Skills 
-*  __GitHub__ - https://github.com/MitTimmIch 
+*  __GitHub__ - <https://github.com/MitTimmIch> 
 * __HTML__ - elementary
 * __CSS__ - elementary
 * __JS__ - elementary
@@ -44,7 +44,7 @@ In the progress.
 ## Education 
  * Rostov State Conservatory named after S.V. Rachmaninov,\ department of Sound Engineering, Master’s degree in sound engineering (2018-2023)
  * Rostov College of Communications and Informatics,\ courses on the basics of algorithmization and programming us C++.  (April - July 2022)
- * HTML Academy, Courses on the basics of frontend development (June 2024 - present)
+ * [HTML Academy](https://htmlacademy.ru/study), Courses on the basics of frontend development (June 2024 - present)
  * Rs school Frontend stage 0 (July 2024 - present)
 
 ## Language
