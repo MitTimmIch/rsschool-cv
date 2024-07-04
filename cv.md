@@ -3,14 +3,21 @@
 
 ## Contacts 
  * *Email:* umaroffteymur@yandex.ru
- * *Telegtam:* https://t.me/Tim_mit_mit
+ * *Telegram:* https://t.me/Tim_mit_mit
  * *Discord:* timur_umar
 
-## Language
- * English - A2(B1)
+## About me 
+I'm just learning development. I'm interested in web because it's trendy, stylish and youthful. 
 
-## Education 
- Rostov State Conservatory named after S.V. Rachmaninov 2018-2023
+I aim to become a junior developer in a year.
+
+## Skills 
+*  __GitHub__ - https://github.com/MitTimmIch 
+* __HTML__ - elementary
+* __CSS__ - elementary
+* __JS__ - elementary
+* __С++__ - elementary
+* __Git & Git Bash__ - elementary 
 
 ## Code example 
  ```javascript
@@ -29,5 +36,18 @@ function removeVowelLetters() {
     return document.getElementById("result").innerHTML = `Результат: ${newText}`;
 }
 ``` 
-## About me 
-I'm just learning development. I'm interested in web because it's trendy, stylish and youthful. I aim to become a junior developer in a year.
+
+## Work experience
+In the progress.
+
+
+## Education 
+ * Rostov State Conservatory named after S.V. Rachmaninov,\ department of Sound Engineering, Master’s degree in sound engineering (2018-2023)
+ * Rostov College of Communications and Informatics,\ courses on the basics of algorithmization and programming us C++.  (April - July 2022)
+ * HTML Academy, Courses on the basics of frontend development (June 2024 - present)
+ * Rs school Frontend stage 0 (July 2024 - present)
+
+## Language
+ * English - A2(B1)
+ * Russian - Native 
+
