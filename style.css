@@ -63,3 +63,7 @@ body {
 .nav-list-item{
     margin: 0 45px;
 }
+
+.avatar{
+    width: 500px;
+}
