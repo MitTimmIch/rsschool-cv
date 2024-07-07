@@ -20,21 +20,23 @@
 </head>
 <body>
     <header class="header">
-        <nav class="header-nav">
-            <ul class="header-nav-list">
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#contacts">Contacts</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#summary">Summary</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#skills">Skills</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#code-example">Code example</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#projects">Projects</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#work-exp">Work expirience</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#education">Education</a></li>
-                <li class="nav-list-item"><a class="nav-list-item-anchor" href="#languages">Languages</a></li>
-            </ul>
-        </nav>
+        <div class="container-wrapper">
+            <nav class="header-nav">
+                <ul class="header-nav-list">
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#contacts">Contacts</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#summary">Summary</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#skills">Skills</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#code-example">Code example</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#projects">Projects</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#work-exp">Work expirience</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#education">Education</a></li>
+                    <li class="nav-list-item"><a class="nav-list-item-anchor" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <div class="page-container">
+        <div class="container-wrapper page-container">
             <section class="author-info">
                 <h1 class="author-title">Timur Umarov</h1>
                 <p class="paragragh">Front-end development student</p>
@@ -42,27 +44,28 @@
                     <img class="avatar" src="./avatar.png" alt="Foto Timur Umarov">
                 </div>
             </section>
-            <section class="section-contacts" id="contacts">
+            <section class="section section-contacts" id="contacts">
                 <h2 class="sub-title">Contacts</h2>
                 <ul class="contacts-list">
                     <li class="contacts-list-item">
-                        <img src="./assets/img/svg-ico/telegram-svgrepo-com.svg" alt="Telegram icon" class="contacts-ico-telegram">
+                        <img src="./assets/img/svg-ico/telegram-svgrepo-com.svg" alt="Telegram icon" class="contacts-ico">
                         <a href="https://t.me/Tim_mit_mit" target="_blank" class="contacts-list-link">@Tim_mit_mit</a>
                     </li>
                     <li class="contacts-list-item">
-                        <img src="./assets/img/svg-ico/mail-send-svgrepo-com.svg" alt="Mail icon" class="contacts-ico-mail">
-                        umaroffteymur@yandex.ru
+                        <img src="./assets/img/svg-ico/mail-send-svgrepo-com.svg" alt="Mail icon" class="contacts-ico">
+                        <p class="contacts-paragragh">umaroffteymur@yandex.ru</p>
                     </li>
                     <li class="contacts-list-item">
-                        <img src="./assets/img/svg-ico/discord-robot-svgrepo-com.svg" alt="Discord icon" class="contacts-ico-discord">
+                        <img src="./assets/img/svg-ico/discord-robot-svgrepo-com.svg" alt="Discord icon" class="contacts-ico">
                         timur_umar
                     </li>
                     <li class="contacts-list-item">
-                        <img src="./assets/img/svg-ico/git-svgrepo-com.svg" alt="Git Hub ico" class="contacts-ico-discord">
+                        <img src="./assets/img/svg-ico/git-svgrepo-com.svg" alt="Git Hub ico" class="contacts-ico">
+                        MitTimmIch
                     </li>
                 </ul>
             </section>
-            <section class="section-summary" id="summary">
+            <section class="section section-summary" id="summary">
                 <h2 class="sub-title">Summary</h2>
                 <h3 class="about-me-sub-title">Just a few words about me</h3>
                 <p class="paragraph">
@@ -73,7 +76,7 @@
                     My goal is to reach junior developer level in a year and create useful projects. 
                 </p>
             </section>
-            <section class="section-skills" id="skills">
+            <section class="section section-skills" id="skills">
                 <h2 class="sub-title">My skills</h2>
                 <ul class="skills-list">
                     <li class="skills-list-item">
@@ -84,41 +87,39 @@
                     <li class="skills-list-item"><p class="paragraph">JS - elementary</p></li>
                 </ul>
             </section>
-            <section class="section-code-example" id="code-example">
+            <section class="section section-code-example" id="code-example">
                 <h2 class="sub-title">Code example</h2>
-                <pre class="code-example">
-                    <code>
-                        "use strict"
+<pre class="code-example"><code>
+"use strict"
     
-                        function removeVowelLetters() {
-                            let text = document.getElementById("page__text-input").value;
-                            console.log(text);
-                            const vowelAlphabet = 'аеёоиуэюыя';
-                            let newText = '';
-                            for (let i = 0; i &lt; text.length; i++){
-                                if (!vowelAlphabet.includes(text[i].toLowerCase())){
-                                    newText +=text[i]
-                                }
-                            }
-                            return document.getElementById("result").innerHTML = `Результат: ${newText}`;
-                        }
-                    </code>
-                </pre>
+function removeVowelLetters() {
+    let text = document.getElementById("page__text-input").value;
+    console.log(text);
+    const vowelAlphabet = 'аеёоиуэюыя';
+    let newText = '';
+    for (let i = 0; i &lt; text.length; i++){
+        if (!vowelAlphabet.includes(text[i].toLowerCase())){
+            newText +=text[i]
+        }
+    }
+    return document.getElementById("result").innerHTML = `Результат: ${newText}`;
+}</code>
+</pre>
             </section>
-            <section class="section-projects" id="projects">
+            <section class="section section-projects" id="projects">
                 <h2 class="sud-title">My projects</h2>
                 <p class="paragraph">I do not have any completed projects at this time. 
                     You can check out the demo projects on my
                     <a href="https://github.com/MitTimmIch" class="personal-github-link" target="_blank">Git Hub.</a>
                 </p>
             </section>
-            <section class="section-work-expirience" id="work-exp">
+            <section class="section section-work-expirience" id="work-exp">
                 <h2 class="sud-title">Work Expirience</h2>
                 <p class="paragraph">
                     I currently have no experience as a developer. But I am actively seeking to remedy that!
                 </p>
             </section>
-            <section class="section-education" id="education">
+            <section class="section section-education" id="education">
                 <h2 class="sub-title">Education</h2>
                 <h3 class="edu-sub-title">Where and what I'm learning.</h3>
                 <ul class="education-list">
@@ -155,7 +156,7 @@
                     </li>
                 </ul>
             </section>
-            <section class="section-languages" id="languages">
+            <section class="section section-languages" id="languages">
                 <h2 class="sud-title">Languages</h2>
                 <ul class="languages-list">
                     <li class="language-list-item">English - A2/B1</li>
@@ -165,12 +166,14 @@
         </div>
     </main>
     <footer class="footer">
-        <div class="footer-author-info-wrap">
-            <a href="https://github.com/MitTimmIch" target="_blank" class="footer-author-gitnub-link">MitTimmIch</a>
-            <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer-rs-course-link">
-                <img class="footer-ico" src="./assets/img/svg-ico/rsschool-ico.svg" alt="Rs School icon">
-            </a>
-            <span class="footer-date">2024</span>
+        <div class="conteiner-wrapper">
+            <div class="footer-author-info-wrap">
+                <a href="https://github.com/MitTimmIch" target="_blank" class="footer-author-gitnub-link">MitTimmIch</a>
+                <a href="https://rs.school/courses/javascript-ru" target="_blank" class="footer-rs-course-link">
+                    <img class="footer-ico" src="./assets/img/svg-ico/rsschool-ico.svg" alt="Rs School icon">
+                </a>
+                <span class="footer-date">2024</span>
+            </div>
         </div>
     </footer>
 </body>
